@@ -1,5 +1,4 @@
-# Apache NiFi in docker
-
+# Apache NiFi [in docker](https://hub.docker.com/r/daggerok/nifi/)
 image:
 - Linux Alpine 3.5
 - Oracle JDK 1.8 update 121
