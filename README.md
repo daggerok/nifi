@@ -1,9 +1,15 @@
 # Apache NiFi in docker
 
+image:
+- Linux Alpine 3.5
+- Oracle JDK 1.8 update 121
+- Apache NiFi 1.1.2
+
 usage
 
 ```bash
-docker run -d -p 80:8080 daggerok/nifi
+docker run -d -p 80:8080 daggerok/nifi # wait arount 30 seconds..
+open http://localhost/nifi
 ```
 
 update and build
